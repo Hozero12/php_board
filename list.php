@@ -23,7 +23,7 @@
         while($row = mysqli_fetch_array($result)){
     ?>
             <tr>
-                <td> <?=$row['id'] ?></td>
+                <td><a href="detail.php?id=<?=$row['id']?>"> <?=$row['id'] ?> </a></td>
                 <td> <?=$row['title'] ?></td>
                 <td> <?=$row['name'] ?></td>
                 <td> <?=$row['content'] ?></td>
