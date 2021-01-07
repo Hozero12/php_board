@@ -6,6 +6,6 @@
     작성자
     <input type="text" name="name" cols=10><br>
     내용 
-    <textarea name="title" cols=100 rows=20></textarea><br><br>
+    <textarea name="content" cols=100 rows=20></textarea><br><br>
     <input type="submit" value="작성">
 </form>
