@@ -9,7 +9,7 @@
         else if(document.form.lock.checked==false){
             document.form.pw.disabled = true;
         }
-    }
+    } // 비밀글 체크 박스를 체크 할 경우에만 비밀번호를 입력 가능 하도록 설정
 </script>
 
 
